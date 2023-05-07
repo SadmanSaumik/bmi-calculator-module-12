@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+}
+.container {
+  width: 50%;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.left {
+  width: 50%;
+  height: 100%;
+  background: url(1.jpg);
+  background-size: cover;
+}
+.right {
+  width: 50%;
+  height: 100%;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-wrapper {
+  width: 70%;
+}
+.form-wrapper h1 {
+}
+.form {
+}
+.input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px 0px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  background: transparent;
+  font-family: "Poppins";
+  color: white;
+}
+.input:focus {
+  outline: none;
+  border-bottom: 2px solid #d8a6d9;
+}
+.btn {
+  display: block;
+  height: 30px;
+  width: 100%;
+  font-family: "Poppins";
+  font-size: 14px;
+  border-radius: 20px;
+  border: 1px solid white;
+  box-shadow: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #d8a6d9;
+  color: black;
+}
+.forgot {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 10px;
+}
+.forgot a {
+  color: white;
+}
+.signup {
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.signup a {
+  color: white;
+}
+.icons a i {
+  color: white;
+  font-size: 20px;
+}
+.icons a {
+  margin-right: 10px;
+}
+.icons {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.text {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
